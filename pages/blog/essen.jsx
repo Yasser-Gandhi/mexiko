@@ -11,7 +11,7 @@ export default function Essen() {
           Essen
         </h1>
 
-        <p className={stylesEssen.description}>
+        <p>
           Hier findest du eine Liste mit allen Dingen, die du in Mexiko machen kannst.
         </p>
 

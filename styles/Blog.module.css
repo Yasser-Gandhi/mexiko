@@ -65,15 +65,6 @@
     color: #ff00ae;
   }
   
-  .code {
-    background: #fafafa;
-    border-radius: 5px;
-    padding: 0.75rem;
-    font-size: .7rem;
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-      Bitstream Vera Sans Mono, Courier New, monospace;
-  }
-  
   .grid {
     display: flex;
     align-items: center;
@@ -138,6 +129,14 @@
       width: 100%;
       flex-direction: column;
     }
+    .card {
+      margin: 1rem;
+      padding: 1rem;
+      min-width: 300px;
+      max-width: 300px;
+      min-height: 600px;
+      max-height: 600px;
+    }
   }
   
   @media (prefers-color-scheme: dark) {
@@ -145,16 +144,7 @@
     .footer {
       border-color: #ff00ae;
     }
-    .grid {
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 1020px;
-  }
-    .code {
-      background: #111;
-    }
+
     .logo img {
       filter: invert(1);
     }

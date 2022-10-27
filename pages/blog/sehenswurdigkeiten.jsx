@@ -11,7 +11,7 @@ export default function Sehenswurdigkeiten() {
           Orte
         </h1>
 
-        <p className={stylesBlog.description}>
+        <p>
           Hier findest du eine Liste mit allen Dingen, die du in Mexiko machen kannst.
         </p>
         <p>Wenn du auf die Fotos klickst, wirst du zu Google Maps weitergeleitet.</p>
