@@ -59,7 +59,7 @@ export default function Essen() {
 
           <a href="" target="_blank" className={stylesEssen.card}>
             <h2>Tamal oaxaqueño</h2>
-            <Image src="/tamal-oaxaqueño.jpg" alt="Comida" height={300} width={300} />
+            <Image src="/tamal-oaxaqueño.jpg" alt="Tamal oaxaqueño" height={300} width={300} />
             <p>🔥 Ein Muss!!!</p>
             <p>Ein Tamal, aber mit anderen Blättern gemacht. Anderer Geschmack</p>
             <span className={stylesEssen.badget}>Oaxaca</span>

@@ -64,11 +64,12 @@
   .badget{
     position: relative;
     top: 30px;
-    right: -150px;
+    left: 5px;
     color: #ff00ae;
     background-color: #ffffff;
     border-radius: 5px;
     font-size: .9rem;
+    font-weight: bold;
     padding: 5px;
   }
   .hinweisePink{
@@ -150,12 +151,12 @@
       flex-direction: column;
     }
     .card {
-      margin: 1rem;
+      margin: 1rem .1rem;
       padding: 1rem;
       min-width: 300px;
       max-width: 300px;
-      min-height: 600px;
-      max-height: 600px;
+      min-height: 700px;
+      max-height: 700px;
     }
   }
   

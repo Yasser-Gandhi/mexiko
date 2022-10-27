@@ -10,9 +10,9 @@ export default function Sehenswurdigkeiten() {
         <h1 className={stylesBlog.title}>
           Orte
         </h1>
-
-        <p>
-          Hier findest du eine Liste mit allen Dingen, die du in Mexiko machen kannst.
+        <p className={stylesBlog.hinweisePink}>
+        Ich empfehle euch, diese Orte zu besuchen. Sie decken alle wichtigen Bereiche des CDMX ab: historisch und modern. 
+        Einige der Stadtteile sind: <strong className={stylesBlog.span}>Centro Histórico (Altstadt), Roma Norte, Condesa, Polanco, Coyoacán, Xochimilco.</strong>
         </p>
         <p>Wenn du auf die Fotos klickst, wirst du zu Google Maps weitergeleitet.</p>
 
