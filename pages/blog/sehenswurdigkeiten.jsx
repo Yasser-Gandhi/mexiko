@@ -8,7 +8,7 @@ export default function Sehenswurdigkeiten() {
       
         <main className={stylesBlog.main}>
         <h1 className={stylesBlog.title}>
-          Sehenswurdigkeiten
+          Sehenswürdigkeiten
         </h1>
 
         <p className={stylesBlog.description}>
