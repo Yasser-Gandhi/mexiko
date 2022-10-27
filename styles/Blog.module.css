@@ -130,12 +130,12 @@
       flex-direction: column;
     }
     .card {
-      margin: 1rem;
+      margin: 1rem .1rem;
       padding: 1rem;
       min-width: 300px;
       max-width: 300px;
-      min-height: 600px;
-      max-height: 600px;
+      min-height: 700px;
+      max-height: 700px;
     }
   }
   
