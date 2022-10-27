@@ -11,10 +11,6 @@ export default function Essen() {
           Essen
         </h1>
 
-        <p>
-          Hier findest du eine Liste mit allen Dingen, die du in Mexiko machen kannst.
-        </p>
-
         <p className={stylesEssen.hinweisePink}>
         Alle Gerichte, die ich empfehle, findet man in beiden Städten: <strong className={stylesEssen.span}>CDMX und Oaxaca</strong>. 
         <p className={stylesEssen.hinweisePink}>
