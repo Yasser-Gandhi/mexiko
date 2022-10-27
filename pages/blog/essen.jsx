@@ -190,9 +190,28 @@ export default function Essen() {
           </a>
 
           <a href="" target="_blank" className={stylesEssen.card}>
+            <h2>Tequila</h2>
+            <Image src="/tequila.jpg" alt="Tequila" height={300} width={300} />
+            <p>🔥 Ein Muss als Souvenir!!!</p>
+            <p>Du weisst, was Tequila bedeutet auf der Welt.</p>
+       
+            <span className={stylesEssen.badget}>Beide</span>
+          </a>
+
+          <a href="" target="_blank" className={stylesEssen.card}>
+            <h2>Mezcal</h2>
+            <Image src="/mezcal.jpg" alt="Mezcal" height={300} width={300} />
+            <p>🔥 Ein Muss als Souvenir!!!</p>
+            <p>Das ist als ein Schnapps. Oaxaca ist der Mekka von diesem Getränk, das zumindest 40 Grad Alkohol hat.</p>
+            <p>Die Namen sind sehr interessant, weil sie die Liebe, die Freude oder die Enttäuschungüberwindung des Leben, ausdrücken. Trinke es doch!</p>
+
+       
+            <span className={stylesEssen.badget}>Beide</span>
+          </a>
+
+          <a href="" target="_blank" className={stylesEssen.card}>
             <h2>Cerveza Corona</h2>
             <Image src="/corona.jpg" alt="Cerveza Corona" height={300} width={300} />
-            <p>🔥 Ein Muss als Souvenir!!!</p>
             <p>Wir haben hier verschiedene Coronas Biere.</p>
        
             <span className={stylesEssen.badget}>Beide</span>

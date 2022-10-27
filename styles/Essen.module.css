@@ -151,7 +151,7 @@
       flex-direction: column;
     }
     .card {
-      margin: 1rem .1rem;
+      margin: 1rem auto;
       padding: 1rem;
       min-width: 300px;
       max-width: 300px;
