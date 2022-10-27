@@ -145,6 +145,9 @@
     .footer {
       border-color: #ff00ae;
     }
+    .title {
+     font-size: 1.2rem;
+    }
     .code {
       background: #111;
     }
