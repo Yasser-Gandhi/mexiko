@@ -145,9 +145,13 @@
     .footer {
       border-color: #ff00ae;
     }
-    .title {
-     font-size: 1.2rem;
-    }
+    .grid {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1020px;
+  }
     .code {
       background: #111;
     }
