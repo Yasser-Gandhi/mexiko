@@ -33,15 +33,15 @@ export default function Essen() {
           Frühstück
         </h2>
         <div className={stylesEssen.grid}>
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Chilaquiles</h2>
             <Image src="/chilaquiles.jpg" alt="Chilaquiles" height={300} width={300} />
             <p>🔥 Ein Muss!!!</p>
             <p>Frittierte Tortillas mit Soße und Hähnchen oder Eier als Beilage. Sehr Lecker</p>
             <span className={stylesEssen.badget}>CDMX</span>
-          </a>
+          </div>
 
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Tamales</h2>
             <Image src="/tamal-maiz.jpg" alt="Tamales" height={300} width={300} />
             <p>🔥 Ein Muss!!!</p>
@@ -51,32 +51,50 @@ export default function Essen() {
             Die Zubereitung durch Maya und Azteken ist für Mitte des letzten Jahrtausends nachgewiesen.
             </p>
             <span className={stylesEssen.badget}>Beide</span>
-          </a>
+          </div>
 
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Tamal oaxaqueño</h2>
             <Image src="/tamal-oaxaqueño.jpg" alt="Tamal oaxaqueño" height={300} width={300} />
             <p>🔥 Ein Muss!!!</p>
             <p>Ein Tamal, aber mit anderen Blättern gemacht. Anderer Geschmack</p>
             <span className={stylesEssen.badget}>Oaxaca</span>
-          </a>
+          </div>
 
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Atoles</h2>
             <Image src="/atoles.jpg" alt="Atoles" height={300} width={300} />
             <p>🔥 Ein Muss!!!</p>
             <p>Ein heißer Getränk aus Mais, oder Kakao. Es gibt verschiedene Sorten. Probiere mal alles, lol.</p>
             <span className={stylesEssen.badget}>Beide</span>
-          </a>
+          </div>
 
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Fruta</h2>
             <Image src="/fruta.jpg" alt="Fruta" height={300} width={300} />
             <p>🔥 Ein Muss!!!</p>
             <p>Obst, aber frischer und güngstiger.</p>
             <p>Wenn du einen Mann mit einem Fahrrad mit einer Sonnenbrille siehst, der sicher Obst verkauft.</p>
             <span className={stylesEssen.badget}>Beide</span>
-          </a>
+          </div>
+
+
+          <div className={stylesEssen.card}>
+            <h2>Pan de muerto</h2>
+            <Image src="/pan.jpg" alt="Pan de muerto" height={300} width={300} />
+            <p>🔥 Ein Muss!!!</p>
+            <p>
+            Pan de muerto ist eine Spezialität der mexikanischen Küche, die zur Feier des Tages der Toten (spanisch Día de Muertos) gebacken wird und „Brot des Toten“ bedeutet. Die Brote werden am Gedenktag oft auch am Grab der Verstorbenen gegessen, deren gedacht wird.
+
+            Die Tradition dieses süßen Brotes (pan dulce) ist europäischen Ursprungs, 
+            und ein Resultat der typischen indianisch-spanischen Mischkultur. Die Ureinwohner Mexikos opfern die süßen Hefebrote, um die Tage ihrer Toten nach dem Vorbild der Altarbrote, die überall in Europa besondere Festtagsopfer sind, zu feiern.
+
+            Die mexikanische Version der Opferbrote hat neue Formen angenommen, 
+            denn die Panes de muerto stellen menschliche Figuren, Alligatoren, Eidechsen und andere Tiere dar meistens jedoch Brote, verziert mit stilisierten Schädeln und gekreuzten Knochen oder Tränen und Kreuzen aus Teig, die fröhlich mit farbigem Kristallzucker oder Anissamen verziert sind. Ursprünglich wurden 
+            die Panes de muerto wie die europäischen Altarbrote aus Mehl, Hefe, Eiern, Zucker und Orangenblütenaroma hergestellt.
+            </p>
+            <span className={stylesEssen.badget}>Oaxaca</span>
+          </div>
 
         </div>
 
@@ -96,54 +114,55 @@ export default function Essen() {
             <span className={stylesEssen.badget}>Beide</span>
           </a>
 
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
               <h2>Enchiladas</h2>
               <Image src="/enchiladas.jpg" alt="Enchiladas" height={300} width={300} />
               <p>🔥 Ein Muss!!!</p>
               <p>Gerollte Tortilla mit Hähnchen drin, Tomatensoße, Käse und Kopfsalat </p>
               <span className={stylesEssen.badget}>Beide</span>
-          </a>
-          <a href="" target="_blank" className={stylesEssen.card}>
+          </div>
+
+          <div className={stylesEssen.card}>
             <h2>Mole</h2>
             <Image src="/mole.jpg" alt="Mole" height={300} width={300} />
             <p>🔥 Ein Muss!!!</p>
             <p>Das ost keine echte Speise, sondern eine Soße aus Schokoloda, Chili, Nüsse und andere Dinge. DAS IST WIRKLICH EIN MUSS.</p>
             <span className={stylesEssen.badget}>Oaxaca</span>
-          </a>
+          </div>
 
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Tlayudas</h2>
             <Image src="/tlayudas.jpg" alt="Tlayudas" height={300} width={300} />
             <p>🔥 Ein Muss!!!</p>
             <p>Du musst eine "Tlayuda con tasajo y chapulines" probieren. Bestelle sie das auf Spanisch!</p>
             <span className={stylesEssen.badget}>Oaxaca</span>
-          </a>
+          </div>
 
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Tacos de carnitas</h2>
             <Image src="/tacos-carnitas.jpg" alt="Comida" height={300} width={300} />
             <p>🔥 Ein Muss!!!</p>
             <p>Tacos mit frittiertes Schweinefleisch</p>
             <span className={stylesEssen.badget}>CDMX</span>
-          </a>
+          </div>
 
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Tacos de canasta</h2>
             <Image src="/taco-canasta.jpg" alt="Comida" height={300} width={300} />
             <p>🔥 Ein Muss!!!</p>
             <p>Tacos mit Kartoffeln oder Bohnen. Sie sind lecker.</p>
             <span className={stylesEssen.badget}>CDMX</span>
-          </a>
+          </div>
 
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Tacos de cochinita</h2>
             <Image src="/tacos-de-cochinita.jpg" alt="Comida" height={300} width={300} />
             <p>🔥 Ein Muss!!!</p>
             <p>Tacos mit Schweinefleisch</p>
             <span className={stylesEssen.badget}>Beide</span>
-          </a>
+          </div>
 
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Gorditas de chicharrón</h2>
             <Image src="/gorditas_de_chicharron.jpg" alt="Gorditas de chicharrón" height={300} width={300} />
             <p>🔥 Ein Muss!!!</p>
@@ -155,50 +174,50 @@ export default function Essen() {
             Gorditas werden oft als Mittagsgericht gegessen und von verschiedenen Arten von Saucen begleitet.
             </p>
             <span className={stylesEssen.badget}>CDMX</span>
-          </a>
+          </div>
 
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Agua de jamaica</h2>
             <Image src="/agua-jamaica.jpg" alt="Agua de jamaica" height={300} width={300} />
             <p>🔥 Ein Muss!!!</p>
             <p>Jamaica ist es eine mexikanische Blume. Probiere es doch mal!</p>
             <span className={stylesEssen.badget}>Beide</span>
-          </a>
+          </div>
 
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Agua de tamarindo</h2>
             <Image src="/tamarindo.jpg" alt="Agua de tamarindo" height={300} width={300} />
             <p>🔥 Ein Muss!!!</p>
             <p>Tamarindo ist es ein exotisches Obst. Kein Ähnliches hast du sicher probiert. Lass es dir schmecken!</p>
             <span className={stylesEssen.badget}>Beide</span>
-          </a>
+          </div>
 
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Agua de horchata</h2>
             <Image src="/horchata.jpg" alt="Agua de horchata" height={300} width={300} />
             <p>🔥 Ein Muss!!!</p>
             <p>Reis Wasser mit Milch, Zimt und Zucker.. Probiere es doch mal!</p>
             <span className={stylesEssen.badget}>Beide</span>
-          </a>
+          </div>
 
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Agua de limón con chía</h2>
             <Image src="/agua-limon-con-chia.jpg" alt="Agua de limón con chía" height={300} width={300} />
             <p>🔥 Ein Muss!!!</p>
             <p>Wasser Zitrone mit Chia.</p>
             <span className={stylesEssen.badget}>Beide</span>
-          </a>
+          </div>
 
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Tequila</h2>
             <Image src="/tequila.jpg" alt="Tequila" height={300} width={300} />
             <p>🔥 Ein Muss als Souvenir!!!</p>
             <p>Du weisst, was Tequila bedeutet auf der Welt.</p>
        
             <span className={stylesEssen.badget}>Beide</span>
-          </a>
+          </div>
 
-          <a href="" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Mezcal</h2>
             <Image src="/mezcal.jpg" alt="Mezcal" height={300} width={300} />
             <p>🔥 Ein Muss als Souvenir!!!</p>
@@ -207,23 +226,23 @@ export default function Essen() {
 
        
             <span className={stylesEssen.badget}>Beide</span>
-          </a>
+          </div>
 
-          <a href="" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Cerveza Corona</h2>
             <Image src="/corona.jpg" alt="Cerveza Corona" height={300} width={300} />
             <p>Wir haben hier verschiedene Coronas Biere.</p>
        
             <span className={stylesEssen.badget}>Beide</span>
-          </a>
+          </div>
 
-          <a href=""  className={stylesEssen.card}>
+          <div  className={stylesEssen.card}>
             <h2>Cerveza Negra Modelo</h2>
             <Image src="/modelo.jpg" alt="Cerveza Negra Modelo" height={300} width={300} />
             <p>Ein tolles Bier. Ich mag mehr das dunkle Bier Modelo.</p>
             
             <span className={stylesEssen.badget}>Beide</span>
-          </a>
+          </div>
 
 
         </div>
@@ -232,7 +251,7 @@ export default function Essen() {
           Abendessen
         </h2>
         <div className={stylesEssen.grid}>
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Tacos al pastor</h2>
             <Image src="/pastor.jpg" alt="Tacos al pastor" height={300} width={300} />
             <p>🔥 Ein Muss!!!</p>
@@ -241,9 +260,9 @@ export default function Essen() {
             </p>
 
             <span className={stylesEssen.badget}>CDMX</span>
-          </a>
+          </div>
 
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Quesadillas</h2>
             <Image src="/quesadillas.jpg" alt="Quesadillas" height={300} width={300} />
             <p>🔥 Ein Muss!!!</p>
@@ -252,9 +271,9 @@ export default function Essen() {
             </p>
   
             <span className={stylesEssen.badget}>Beide</span>
-          </a>
+          </div>
 
-          <a href="" target="_blank" className={stylesEssen.card}>
+          <div className={stylesEssen.card}>
             <h2>Tostadas</h2>
             <Image src="/tostadas.jpg" alt="Tostadas" height={300} width={300} />
             <p>🔥
@@ -263,12 +282,12 @@ export default function Essen() {
             (kleine Gelüste) bekannt; sie waren für die mexikanische Arbeiterklasse lange Zeit eine schnelle Mahlzeit, 
             die oft an einer Straßenecke gegessen wurden.
 
-Tostadas bilden im mexikanischen Street Food die Unterlage für zahlreiche Füllungen, meist eine Lage braunes Bohnenpüree, 
-darauf eine Lage geschreddertes Fleisch und darüber frisches Gemüse und Salat, gekrönt mit geriebenem Käse und mexikanischer Salsa. Tostadas Tinga sind Snacks mit einer Füllung aus scharfem Hühnchenfleisch.
+            Tostadas bilden im mexikanischen Street Food die Unterlage für zahlreiche Füllungen, meist eine Lage braunes Bohnenpüree, 
+            darauf eine Lage geschreddertes Fleisch und darüber frisches Gemüse und Salat, gekrönt mit geriebenem Käse und mexikanischer Salsa. Tostadas Tinga sind Snacks mit einer Füllung aus scharfem Hühnchenfleisch.
             </p>
             
             <span className={stylesEssen.badget}>Beide</span>
-          </a>
+          </div>
 
 
 

@@ -15,8 +15,12 @@ export default function Sehenswurdigkeiten() {
         Einige der Stadtteile sind: <strong className={stylesBlog.span}>Centro Histórico (Altstadt), Roma Norte, Condesa, Polanco, Coyoacán, Xochimilco.</strong>
         </p>
         <p>Wenn du auf die Fotos klickst, wirst du zu Google Maps weitergeleitet.</p>
+        <p className={stylesBlog.tipp}>
+        MEINE BESTE EMPFEHLUNG: nimm doch den Turibus, um eine bessere Übersicht über die Stadt zu bekommen. Hier die Info: 
+        </p>
+        <a href="https://www.turibus.com.mx/en/home" target="_blank" rel="noopener noreferrer" style={{fontSize: "24px", color: "red"}}> https://www.turibus.com.mx/</a>
 
-        
+        <br></br>
 
         <Link href="/" ><a className={stylesBlog.zuruck}>Zurück</a></Link>
 

@@ -113,6 +113,11 @@
     margin-left: 0.5rem;
   }
 
+  .tipp{
+    color: #00e5ff;
+    text-align: center;
+  }
+
   .zuruck{
     background-color: #ff00ae;
     color: white;
