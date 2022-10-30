@@ -33,6 +33,17 @@ export default function Essen() {
           Frühstück
         </h2>
         <div className={stylesEssen.grid}>
+
+        <div className={stylesEssen.card}>
+            <h2>Kaffee</h2>
+            <Image src="/kaffee.jpg" alt="Café" height={300} width={300} />
+            <p>🔥 Ein Muss!!!</p>
+            <p>
+            Probiere doch den mexikanischen Kaffee. Wenn Du Kaffeebohnen oder gemahlenen Kaffee mitnehmen willst, kannst du ihn in El Jarocho, in Coyoacán oder in jedem Café kaufen. Das Kilo kostet 11 Euro.
+            </p>
+            <span className={stylesEssen.badget}>CDMX</span>
+          </div>
+
           <div className={stylesEssen.card}>
             <h2>Chilaquiles</h2>
             <Image src="/chilaquiles.jpg" alt="Chilaquiles" height={300} width={300} />

@@ -128,6 +128,15 @@ export default function Sehenswurdigkeiten() {
             </p>
           </a>
 
+          <a href="https://g.page/La-Ciudadela-Oficial?share" target="_blank" className={stylesBlog.card}>
+            <h2>Mercado de la Ciudadela</h2>
+            <Image src="/ciudadela.jpg" alt="Mercado de la Ciudadela" height={300} width={300} />
+            <p>
+            Auf diesem Markt findest du mexikanisches Kunsthandwerk 
+            aus dem ganzen Land. Sehr empfehlenswert.
+            </p>
+          </a>
+
           <a href="https://goo.gl/maps/zq888X8YwjeT2EhAA" target="_blank" className={stylesBlog.card}>
             <h2>Monumento a la Revolución</h2>
             <Image src="/revo.jpg" alt="Monumento a la Revolución" height={300} width={300} />
